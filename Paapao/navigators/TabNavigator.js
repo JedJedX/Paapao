@@ -29,8 +29,11 @@ export default function TabNavigator() {
                     // ส่งคืนไอคอนที่กำหนด
                     return <Ionicons name={iconName} size={size} color={color} />;
                 },
-                tabBarActiveTintColor: '#41C9E2', // สีเมื่อแท็บถูกเลือก
-                tabBarInactiveTintColor: 'gray', // สีเมื่อแท็บไม่ได้ถูกเลือก
+                tabBarActiveTintColor: '#B9E9E8', // สีเมื่อแท็บถูกเลือก
+                tabBarInactiveTintColor: '#fff', // สีเมื่อแท็บไม่ได้ถูกเลือก
+                headerStyle: { backgroundColor: '#41C9E2', },//สีพื้นหลังของ Header
+                tabBarStyle: { backgroundColor: '#41C9E2'}, // สีพื้นหลังของ Tab Bar
+                headerTintColor:'#ffff',
             })}
         >
             {/* กำหนดแท็บแต่ละแท็บ */}

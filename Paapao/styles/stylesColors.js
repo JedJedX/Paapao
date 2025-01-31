@@ -1,0 +1,78 @@
+import { StyleSheet } from "react-native";
+
+const stylesColors = StyleSheet.create({
+    imgcardWh: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#fff",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardYL: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#F2F200",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardGr: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#CACACA",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardRe: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#EE2720",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardPP: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#9700C7",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardBlu: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#033EDA",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardDG: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#015301",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    imgcardBl: {
+        width: 80,
+        height: 80,
+        margin: 10,
+        backgroundColor: "#000000",
+        borderRadius: 50,
+        justifyContent: "center",
+        alignItems: "center",
+    },
+
+});
+export default stylesColors;
