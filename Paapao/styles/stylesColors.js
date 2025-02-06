@@ -4,7 +4,7 @@ const stylesColors = StyleSheet.create({
     imgcardWh: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#fff",
         borderRadius: 50,
         justifyContent: "center",
@@ -13,7 +13,7 @@ const stylesColors = StyleSheet.create({
     imgcardYL: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#F2F200",
         borderRadius: 50,
         justifyContent: "center",
@@ -22,7 +22,7 @@ const stylesColors = StyleSheet.create({
     imgcardGr: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#CACACA",
         borderRadius: 50,
         justifyContent: "center",
@@ -31,7 +31,7 @@ const stylesColors = StyleSheet.create({
     imgcardRe: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#EE2720",
         borderRadius: 50,
         justifyContent: "center",
@@ -40,7 +40,7 @@ const stylesColors = StyleSheet.create({
     imgcardPP: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#9700C7",
         borderRadius: 50,
         justifyContent: "center",
@@ -49,7 +49,7 @@ const stylesColors = StyleSheet.create({
     imgcardBlu: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#033EDA",
         borderRadius: 50,
         justifyContent: "center",
@@ -58,7 +58,7 @@ const stylesColors = StyleSheet.create({
     imgcardDG: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#015301",
         borderRadius: 50,
         justifyContent: "center",
@@ -67,7 +67,7 @@ const stylesColors = StyleSheet.create({
     imgcardBl: {
         width: 80,
         height: 80,
-        margin: 10,
+        marginTop: 10,
         backgroundColor: "#000000",
         borderRadius: 50,
         justifyContent: "center",
