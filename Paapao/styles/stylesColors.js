@@ -1,6 +1,33 @@
 import { StyleSheet } from "react-native";
 
 const stylesColors = StyleSheet.create({
+    container: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: "#B9E9E8"
+    },
+    contentcard: {
+        width: 380,
+        height: 250,
+        borderRadius: 20,
+        backgroundColor: "#41C9E2",
+        margin: 20,
+        alignItems: "center",
+    },
+    textcard: {
+        width: '95%',
+        height: '50%',
+        borderRadius: 20,
+        backgroundColor: "#fff",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 20,
+    },
+    title: {
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
     imgcardWh: {
         width: 80,
         height: 80,

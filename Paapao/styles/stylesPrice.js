@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+const stylePrice = StyleSheet.create({
     container: {
         flexGrow: 1,
         justifyContent: 'center',
@@ -24,9 +24,38 @@ const styles = StyleSheet.create({
         alignItems: "center",
         margin: 20,
     },
+    contentcard: {
+        width: 380,
+        height: 300,
+        borderRadius: 20,
+        backgroundColor: "#41C9E2",
+        margin: 10,
+        alignItems: "center",
+    },
+    cardPrice:{
+        width: 350,
+        height:150,
+
+    },
+    cardimg:{
+        justifyContent: 'center',
+        alignItems: 'center',
+
+    },
+    textcard: {
+        width: '95%',
+        height: '50%',
+        borderRadius: 20,
+        backgroundColor: "#fff",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 20,
+    },
     title: {
         fontSize: 24,
         fontWeight: 'bold',
+        justifyContent: "center",
+        alignItems: "center",
     },
     fabricImage: {
         width: 100,
@@ -37,6 +66,15 @@ const styles = StyleSheet.create({
         margin: 10,
         justifyContent: 'center',
         alignItems: 'center',
-        }
+    },
+   textPrice:{
+        width: 350,
+        height:170,
+        borderRadius: 20,
+        backgroundColor: "#fff",
+        justifyContent: "center",
+        alignItems: "center",
+
+    },
 });
-export default styles;
+export default stylePrice;
